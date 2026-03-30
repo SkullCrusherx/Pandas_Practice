@@ -11,6 +11,8 @@ dic = {
 
 Siries = pd.Series(list)
 print(Siries)
+Dic1 = pd.Series(dic)
+print(Dic1)
 
 
 
