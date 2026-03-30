@@ -11,7 +11,7 @@ dic = {
 
 #-------------------------------------------------------------------------
 Siries_normal = pd.Series(list) #showing Data
-Siries_normal_name = pd.Series(list,name="XXX")
+Siries_normal_name = pd.Series(list,name="Python")
 Siries_sepcs_data = pd.Series(list[0]) #show secific element Data of Siries
 Siries_index = pd.Series(list,index=["Sayan","Rupa","Rahul","Punjab"]) #index changing
 Siries_type = pd.Series(type(list)) #checking datatype
@@ -23,7 +23,7 @@ print(Siries_index) #index change and update
 print(Siries_type) #show data type
 print(Siries_ch_type) #chnage the data type
 print(Siries_only_int) #single number make series with index how much need also
-print('gg',Siries_sepcs_data)
+print(Siries_sepcs_data)
 print(Siries_normal_name)
 #-------------------------------------------------------------------------
 Dic1 = pd.Series(dic)
