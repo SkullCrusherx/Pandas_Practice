@@ -15,7 +15,7 @@ print(Siries) #Siries make 1D
 Dic1 = pd.Series(dic)
 print(Dic1)
 
-print("=========================")
+print("=========================" * 100)
 
 Dic2 = pd.DataFrame(dic) #DataFrame make 2D
 print(Dic2)
