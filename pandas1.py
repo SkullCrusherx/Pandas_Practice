@@ -32,6 +32,6 @@ print(Dic1["name"][1])
 #for specific Dictionary data ["name"] for Dictionary [] next one index value to show element for the data
 print(Dic1["age"]) #For specific Dictionary age
 #-------------------------------------------------------------------------
-l1=[range(5)]
-p1 = pd.Series(10,index=l1)
+
+p1 = pd.Series(10,index=[1,2,3,4,5])
 print(p1)
