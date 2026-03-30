@@ -24,6 +24,7 @@ print(Siries_type) #show data type
 print(Siries_ch_type) #chnage the data type
 print(Siries_only_int) #single number make series with index how much need also
 print('gg',Siries_sepcs_data)
+print(Siries_normal_name)
 #-------------------------------------------------------------------------
 Dic1 = pd.Series(dic)
 print(Dic1) #Siries make 2D From Dictionary
