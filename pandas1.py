@@ -1,7 +1,7 @@
 #Siries
 import pandas as pd
 
-list = [1,2,3,4]
+list = [3,4,5,6]
 data = 10
 dic = {
     "name":["Sayan","Rupa","Rahul"],
