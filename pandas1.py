@@ -29,5 +29,6 @@ print(Siries_normal_name)
 Dic1 = pd.Series(dic)
 
 print(Dic1) #Siries make 2D From Dictionary
-print(Dic1["name"][1]) #for specific Dictionary data
+print(Dic1["name"][1])
+#for specific Dictionary data ["name"] for Dictionary [] next one index value to show element for the data
 print(Dic1["age"]) #for specific Dictionary age
