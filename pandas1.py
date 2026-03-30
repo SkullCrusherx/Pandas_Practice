@@ -10,7 +10,7 @@ dic = {
     }
 
 Siries = pd.Series(list)
-print(Siries)
+print(Siries) #Siries make 1D
 
 Dic1 = pd.Series(dic)
 print(Dic1)
