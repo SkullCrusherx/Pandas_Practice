@@ -13,3 +13,4 @@ Siries = pd.Series(list)
 print(Siries)
 
 
+
