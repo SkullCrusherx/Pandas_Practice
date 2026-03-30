@@ -6,7 +6,7 @@ data = 10
 dic = {
     "name":["Sayan","Rupa","Rahul"],
     "age":[26,21,16],
-    "city":["Delhi","Goa","Punjab"]
+    "city":["Delhi","Goa","Punjab","del"]
     }
 
 #-------------------------------------------------------------------------
