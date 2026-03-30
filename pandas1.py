@@ -11,6 +11,7 @@ dic = {
 
 #-------------------------------------------------------------------------
 Siries_normal = pd.Series(list) #showing Data
+Siries_normal_name = pd.Series(list,name="XXX")
 Siries_sepcs_data = pd.Series(list[0]) #show secific element Data of Siries
 Siries_index = pd.Series(list,index=["Sayan","Rupa","Rahul","Punjab"]) #index changing
 Siries_type = pd.Series(type(list)) #checking datatype
