@@ -12,8 +12,10 @@ dic = {
 Siries = pd.Series(list)
 #print(Siries)
 Dic1 = pd.Series(dic)
-print(Dic1)
+print(Dic1["name"])
+
 print("=========================")
+
 Dic2 = pd.DataFrame(dic)
 print(Dic2)
 
