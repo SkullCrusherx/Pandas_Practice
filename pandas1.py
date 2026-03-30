@@ -33,5 +33,5 @@ print(Dic1["name"][1])
 print(Dic1["age"]) #For specific Dictionary age
 #-------------------------------------------------------------------------
 
-p1 = pd.Series(10,index=[range(0,6)])
+p1 = pd.Series(10,index=[1,2,3,4])
 print(p1)
