@@ -17,5 +17,5 @@ print(Dic1)
 
 print("=========================")
 
-Dic2 = pd.DataFrame(dic)
+Dic2 = pd.DataFrame(dic)#DataFrame make 2D
 print(Dic2)
