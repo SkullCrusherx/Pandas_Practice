@@ -12,7 +12,7 @@ dic = {
 Siries = pd.Series(list)
 #print(Siries)
 Dic1 = pd.Series(dic)
-print(Dic1["name"][:2])
+print(Dic1["name"][:])
 
 print("=========================")
 
