@@ -9,7 +9,7 @@ dic = {
     "city":["Delhi","Goa","Punjab"]
     }
 
-Siries = pd.Series(list)
+Siries = pd.Series(list,index=[5,5])
 print(Siries) #Siries make 1D From List
 
 Dic1 = pd.Series(dic)
