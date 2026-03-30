@@ -1,7 +1,7 @@
 #Siries
 import pandas as pd
 
-list = [1,2,3,4,5,6,7,8,9,10]
+list = [1,2,3,4]
 
 dic = {
     "name":["Sayan","Rupa","Rahul"],
@@ -9,7 +9,7 @@ dic = {
     "city":["Delhi","Goa","Punjab"]
     }
 
-Siries = pd.Series(list)
+Siries = pd.Series(list,index=["Sayan","Rupa","Rahul"])
 print(Siries) #Siries make 1D From List
 
 Dic1 = pd.Series(dic)
