@@ -11,11 +11,11 @@ dic = {
 
 #-------------------------------------------------------------------------
 Siries_normal = pd.Series(list) #showing Data
-Siries_sepcs_data = pd.Series(list[0][1])
-Siries_index = pd.Series(list,index=["Sayan","Rupa","Rahul","Punjab"])
-Siries_type = pd.Series(type(list))
-Siries_ch_type = pd.Series(list,dtype=object)
-Siries_only_int = pd.Series(data,index=["Sayan","Rupa","Rahul","Punjab"])
+Siries_sepcs_data = pd.Series(list[0]) #show secific element Data of Siries
+Siries_index = pd.Series(list,index=["Sayan","Rupa","Rahul","Punjab"]) #index changing
+Siries_type = pd.Series(type(list)) #checking datatype
+Siries_ch_type = pd.Series(list,dtype=object) #change data type using dtype function like numpy
+Siries_only_int = pd.Series(data,index=["Sayan","Rupa","Rahul","Punjab"]) #one int make Siries using index times
 #-------------------------------------------------------------------------
 print(Siries_normal) #Siries make 1D From List
 print(Siries_index) #index change and update
