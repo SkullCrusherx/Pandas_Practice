@@ -1,8 +1,14 @@
 #Siries
 import pandas as pd
 
-x = [1,2,3,4,5,6,7,8,9,10]
+list = [1,2,3,4,5,6,7,8,9,10]
+dic = {
+    "name":["Sayan","Rupa","Rahul"],
+    "age":[26,21,16],
+    "city":["Delhi","Goa","Punjab"]
+    }
 
-Siries = pd.Series(x)
+
+Siries = pd.Series(list)
 print(Siries)
 
