@@ -8,7 +8,7 @@ list = [1,2,3,4,5,6]
 list_2d = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 dframe = pd.DataFrame(dic)
 frame = pd.DataFrame(list)
-Gmm = pd.DataFrame(list_2d)
+Gmm = pd.DataFrame(list_2d,index=["A","B","C"],columns=["D","E","F","G"])
 print(dframe)
 print("=============" * 3)
 print(frame)
