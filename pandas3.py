@@ -1,5 +1,5 @@
 import pandas as pd
 
 
-csv = pd.read_csv("ML.csv",header=None,prefix = ["col"])
+csv = pd.read_csv("ML.csv",header=None,prefix = "col")
 print(csv)
