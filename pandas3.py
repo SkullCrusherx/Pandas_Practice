@@ -1,5 +1,5 @@
 import pandas as pd
 
 
-csv = pd.read_csv("ML.csv",names=1,2)
+csv = pd.read_csv("ML.csv",names=[1,1])
 print(csv)
