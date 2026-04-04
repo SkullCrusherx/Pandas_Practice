@@ -14,3 +14,4 @@ print(csv.index.array)      #showing index all number into array(panda)
 print(csv.columns.array)    #showing in array Column name or headers
 print(csv.to_numpy())       #all Data element convert into numpy array
 print(np.asarray(csv))      #import numpy 1st then np function as array call to make numpy array
+print(csv.sort_index(axis=0,ascending=False))
