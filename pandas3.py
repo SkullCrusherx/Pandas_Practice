@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 csv = pd.read_csv("ML.csv")
 
@@ -12,3 +13,4 @@ print(type(csv[:2]))        #showing or reflect the data type
 print(csv.index.array)      #showing index all number into array(panda)
 print(csv.columns.array)    #showing in array Column name or headers
 print(csv.to_numpy())       #all Data element convert into numpy array
+print(np.asarray(csv))      #import numpy 1st then np function as array call to make numpy array
