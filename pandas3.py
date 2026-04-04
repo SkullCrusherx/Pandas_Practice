@@ -11,3 +11,4 @@ print(csv[:2])              #from start to end also we check print using like th
 print(type(csv[:2]))        #showing or reflect the data type
 print(csv.index.array)      #showing index all number into array(panda)
 print(csv.columns.array)    #showing in array Column name or headers
+print(csv.to_numpy())
