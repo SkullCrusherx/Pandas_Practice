@@ -16,5 +16,5 @@ print(csv.to_numpy())                                            #all Data eleme
 print(np.asarray(csv))                                           #import numpy 1st then np function as array call to make numpy array
 print(csv.sort_index(axis=0,ascending=False))                    #sort index means index wise sort and ascending use for not required for ascending theats why False otherWise True
 print("*****")
-print(csv[["BHK","Price"][1]])                                   #here ican get data using which data actually need using comma [["Colum name1","Colum name2"]column[1,5]Row]
+print(csv[["BHK","Price"][3,4]])                                   #here ican get data using which data actually need using comma [["Colum name1","Colum name2"]column[1,5]Row]
 print(csv["Price"][1:5])                                         #here ican get data using which data actually need using slicing [column_name][1:5]Row]
