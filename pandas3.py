@@ -18,3 +18,4 @@ print(csv.sort_index(axis=0,ascending=False))                    #sort index mea
 print(csv.loc[[0,1],["BHK","Price"]])                            #here ican get data using which data actually need using slicing [[Row number ],[column name ]]
 print(csv.loc[2],["BHK"])                                        #here ican get data using which data actually need using comma [["Colum name1","Colum name2"][5]Row]
 print(csv.iloc[2,1])                                             #iloc[] function particular data Reflect
+print(csv.drop("BHK",axis=1))                              #drop the particular colum here we can drop row wise column wise also
