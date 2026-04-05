@@ -15,4 +15,4 @@ print(csv.columns.array)                                         #showing in arr
 print(csv.to_numpy())                                            #all Data element convert into numpy array
 print(np.asarray(csv))                                           #import numpy 1st then np function as array call to make numpy array
 print(csv.sort_index(axis=0,ascending=False))                    #sort index means index wise sort and ascending use for not required for ascending theats why False otherWise True
-print(csv[[2,3],["BHK","Price"]])
+print(csv[[0,1],["BHK","Price"]])
