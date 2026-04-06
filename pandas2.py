@@ -7,6 +7,7 @@ Dic = {                                                    # Dictionary
     "A" : [1,2,3,4],
     "B" : [5,6,7,8]
 }
+sr = {"s": pd.Series([2,3,4]),"g": pd.Series([5,6,7])}
 
 
 var_1 = pd.DataFrame(list)                                 # Make List 2D DataFrame
