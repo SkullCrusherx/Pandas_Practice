@@ -12,7 +12,7 @@ Dic = {                                                    # Dictionary
 var_1 = pd.DataFrame(list)                                 # Make List 2D DataFrame
 var_2 = pd.DataFrame(list_1)                               # Make list 2D Dataframe but Row is 2 and Column element of Dataset
 var_3 = pd.DataFrame(Dic)                                  # Here 2D key make Column Name and values [list] which is Given is the element (equal Data length mandatory or value error reflect)
-var_4 = pd.DataFrame(Dic,columns=["A"])                    #Given columns to check specific column elements
+var_4 = pd.DataFrame(Dic,columns=["A"])                    # Given columns to check specific column elements
 
 
 print(var_1)                                                # Reflect list Data
