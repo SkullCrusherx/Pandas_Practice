@@ -21,7 +21,7 @@ print(var_2)                                                # Reflect whole list
 print(var_3)                                                # Reflect Dictionary into 2D Table
 print(type(var_1))                                          # Print which function used Here
 print(var_2[0][0])                                          # According to List var print only specific from list to list Data then 1st whch list then row like var_2[list_number][row_number]
+print(var_5)                                                # After index number Change Reflect it
 print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
 print(var_4)                                                # Reflect the column id by name
-print(var_5)                                                # reflect after changing all the row(index number)
-print(var_5[0][1])
+                                               # reflect after changing all the row(index number)
