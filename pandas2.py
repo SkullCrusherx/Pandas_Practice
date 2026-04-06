@@ -15,7 +15,7 @@ var_2 = pd.DataFrame(list_1)                               # Make list 2D Datafr
 var_3 = pd.DataFrame(Dic)                                  # Here 2D key make Column Name and values [list] which is Given is the element (equal Data length mandatory or value error reflect)
 var_4 = pd.DataFrame(Dic,columns=["A"])                    # Given columns to check specific column elements
 var_5 = pd.DataFrame(Dic,index=["Q","W","E","R"])          # change index number normal digit to according user Defined
-var_6 = pd.DataFrame(siris)
+var_6 = pd.DataFrame(siris)                                # make two siris into Data Frame
 
 
 print(var_1)                                                # Reflect list Data
@@ -26,4 +26,4 @@ print(var_2[0][0])                                          # According to List 
 print(var_5)                                                # After index number Change Reflect it row(index number)
 print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
 print(var_4)                                                # Reflect the column id by name
-print(var_6)
+print(var_6)                                                # 2 siris create Data frame and reflect it
