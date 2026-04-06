@@ -2,7 +2,9 @@
 import pandas as pd
 
 list = [3,4,5,6]
+list_1 = [[11,22,33],[44,55,66]]
 data = 10
+
 dic = {
     "A":["Sayan","Rupa","Rahul"],
     "B":[1,2,3],
