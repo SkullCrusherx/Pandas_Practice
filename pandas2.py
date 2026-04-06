@@ -24,4 +24,3 @@ print(var_2[0][0])                                          # According to List 
 print(var_5)                                                # After index number Change Reflect it row(index number)
 print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
 print(var_4)                                                # Reflect the column id by name
-
