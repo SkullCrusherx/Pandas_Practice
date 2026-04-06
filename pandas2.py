@@ -7,7 +7,7 @@ Dic = {                                                    # Dictionary
     "A" : [1,2,3,4],
     "B" : [5,6,7,8]
 }
-sr = {"s": pd.Series([2,3,4]),"g": pd.Series([5,6,7])}
+siris = {"s": pd.Series([2,3,4]),"g": pd.Series([5,6,7])}
 
 
 var_1 = pd.DataFrame(list)                                 # Make List 2D DataFrame
@@ -25,3 +25,4 @@ print(var_2[0][0])                                          # According to List 
 print(var_5)                                                # After index number Change Reflect it row(index number)
 print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
 print(var_4)                                                # Reflect the column id by name
+print(siris)
