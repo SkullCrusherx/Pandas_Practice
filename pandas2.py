@@ -23,4 +23,4 @@ print(type(var_1))                                          # Print which functi
 print(var_2[0][0])                                          # according to List var print only specific from list to list Data then 1st whch list then row like var_2[list_number][row_number]
 print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
 print(var_4)                                                 # Reflect the column id by name
-print(var_5)
+#print(var_5)
