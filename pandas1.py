@@ -1,40 +1,34 @@
 #Siries
 import pandas as pd
 
-list = [3,4,5,6]
-list_1 = [[11,22,33],[44,55,66]]
-data = 10
-
-dic = {
-    "A":["Sayan","Rupa","Rahul"],
-    "B":[1,2,3],
-    "C":["Delhi","Goa","Punjab","Delhi"]
-    }
+L1 = [1,2,3,4,5]                                 # Single List
+L2 = [[1,2,3,4],[5,6,7,8]]                       # List inside list
+dic = {"A":123}                                  #1 Eliment Dictionary
+dic2 = {"C":[1,2,3],"D":[4,5,6]}                 #2 Eliment in Dictionary
 
 
-Siries_normal = pd.Series(list)                                                                     #showing Data
-Siries_normal_name = pd.Series(list,name="Python")                                                  #Given Name
-Siries_sepcs_data = pd.Series(list[0])                                                              #show specific element Data of Siries
-Siries_index = pd.Series(list,index=["AA","BB","CC","DD"])                                          #index changing
-Siries_type = pd.Series(type(list))                                                                 #checking datatype
-Siries_ch_type = pd.Series(list,dtype=object)                                                       #change data type using dtype function like numpy
-Siries_only_int = pd.Series(data,index=[1,2,3,4,5])                                                 #one int make Siries using index times
-Dic1 = pd.Series(dic)
-p1 = pd.Series(10,index=[1,2,3,4,5])
-p2 = pd.Series(10,index=[1,2,3,4,5,6,7,8])
+list_1 = pd.Series(L1)                          # Creating List into Series
+list_111 = pd.Series(L1,dtype = 'float')         # all elemnet for series turn into float from int
+list_22 = pd.Series(L2)                          # Creating List into Series
+list_101 = pd.Series(L2,index = ["A","B"])       # Index values changing using lke this
+list_102 = pd.Series(L2,name = "Welcome")        # Index values changing using lke this
+Any = pd.Series(10,index=[1,2,3,4,5,6])          # One number make Series and its copied which given index number also
+A = pd.Series([1,2,3,4,5])                       # A for adddtion perform series
+B = pd.Series([1,2,3])                           # 2nd value for addition Seires
 
 
+dic_11 = pd.Series(dic)                          # Creating Dictionary into Series single Element
+dic_33 = pd.Series(dic2)                         # Creating Dictionary into Series multiple Element
 
 
-print(Siries_normal)                                                                                #Siries make 1D From List
-print(Siries_index)                                                                                 #index change and update
-print(Siries_type)                                                                                  #show data type
-print(Siries_ch_type)                                                                               #chnage the data type
-print(Siries_only_int)                                                                              #single number make series with index how much need also
-print(Siries_sepcs_data)
-print(Siries_normal_name)
-print(Dic1)                                                                                         #Siries make 2D From Dictionary
-print(Dic1["name"][1])                                                                              #for specific Dictionary data ["name"] for Dictionary [] next one index value to show element for the data
-print(Dic1["age"])                                                                                  #For specific Dictionary age
-print(p1 + p2)                                                                                      #no broadcasting error numpy but lowest data only operation possible then show none
-
+print(type(list_1))                              # Check the type of Function
+print(list_1)                                    # All in row 1D but work show like 2D
+print(list_111)                                  # Reflect the data after converting the Data type from int to float
+print(list_22)                                   # Show data element into one row by list
+print(dic_11)                                    # Show Dictionary one element data no comma use
+print(dic_33)                                    # Show Dictionary element data comma use list mainly
+print(dic_33["C"])                               # Get the Value of C eliment
+print(list_101)                                  # Reflect the index number after changeing
+print(list_102)                                  # Given name of element
+print(Any)                                       # Reflect one number series into given index number
+print(A+B)                                       # Addtion perform but data showing lower element if all valiables and other showing NAN
