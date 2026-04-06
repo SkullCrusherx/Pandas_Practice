@@ -7,12 +7,12 @@ dic = {"A":123}                                  #1 Eliment Dictionary
 dic2 = {"C":[1,2,3],"D":[4,5,6]}                 #2 Eliment in Dictionary
 
 
-list_1 = pd.Series(L1)                          # Creating List into Series
+list_1 = pd.Series(L1)                           # Creating List into Series
 list_111 = pd.Series(L1,dtype = 'float')         # all elemnet for series turn into float from int
 list_22 = pd.Series(L2)                          # Creating List into Series
 list_101 = pd.Series(L2,index = ["A","B"])       # Index values changing using lke this
 list_102 = pd.Series(L2,name = "Welcome")        # Index values changing using lke this
-Any = pd.Series(10,index=[1,2,3,4,5,6])          # One number make Series and its copied which given index number also
+Any = pd.Series(10,index=[1,2,3,4,5,6])     # One number make Series and its copied which given index number also
 A = pd.Series([1,2,3,4,5])                       # A for adddtion perform series
 B = pd.Series([1,2,3])                           # 2nd value for addition Seires
 
