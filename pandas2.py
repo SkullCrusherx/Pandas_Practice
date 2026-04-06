@@ -1,24 +1,24 @@
 #DataFrame
 import pandas as pd
 
-dic = {
-    "A":[1,2,3,4,5,6],
-    "B":[7,8,9,10,11,12]
+list = [1,2,3,4]                                           # List Data
+list_1 = [[1,2,3,4],[5,6,7,8]]                             # List Inside List
+Dic = {                                                    # Dictionary
+    "A" : [1,2,3,4],
+    "B" : [5,6,7,8]
 }
-siris = {"A" : pd.Series([1,2,3,4]) , "B" : pd.Series([7,8,9,10])}
-list = [1,2,3,4,5,6]
-list_2d = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 
-df = pd.DataFrame(dic)
-check = pd.DataFrame(dic["A"])
-lframe = pd.DataFrame(list)
-l2frame = pd.DataFrame(list_2d)
-lrcframe = pd.DataFrame(list_2d,index=["A","B","C"],columns=["D","E","F","G"])
-sirs = pd.DataFrame(siris)
 
-print(df)
-print(lframe)
-print(l2frame)
-print(lrcframe)
-print(sirs)
-print(check)
+var_1 = pd.DataFrame(list)                                 # Make List 2D DataFrame
+var_2 = pd.DataFrame(list_1)                               # Make list 2D Dataframe but Row is 2 and Column element of Dataset
+var_3 = pd.DataFrame(Dic)                                  # Here 2D key make Column Name and values [list] which is Given is the element (equal Data length mandatory or value error reflect)
+var_4 = pd.DataFrame(Dic,columns=["A"])                    #Given columns to checkspecific column elements
+
+
+print(var_1)                                                # Reflect list Data
+print(var_2)                                                # Reflect whole list into 2D Table
+print(var_3)                                                # Reflect Dictionary into 2D Table
+print(type(var_1))                                          # Print which function used Here
+print(var_2[0][0])                                          # according to List var print only specific from list to list Data then 1st whch list then row like var_2[list_number][row_number]
+print(var_3["A"][1])                                        # Dictionary time 1St columns name then row index number like these
+print(var_4)                                                # Reflect the column id by name
