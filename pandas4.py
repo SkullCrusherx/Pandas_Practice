@@ -3,11 +3,12 @@ import pandas as pd
 
 var = {
     "A" :[1,2,3,4],
-    "B" :[5,6,7,8],
+    "B" :[5,6,7,8],                                      # Create Dictionary For insert Data and Delete Data also
     "C" :[9,10,11,12],
     "D" :[13,14,15,16]
 }
 
 df = pd.DataFrame(var)
-df.insert(1,"NN",[11,22,33,44]) # value Return into file no need store any variable
+df.insert(1,"NN",[11,22,33,44])        # value Return into file no need store any variable
+                                                        # insert(Location,Column name,list or element(data))
 print(df)
