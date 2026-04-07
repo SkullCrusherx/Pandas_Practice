@@ -24,7 +24,7 @@ var_3['XY'] = var_3['A'] - var_3['B']
 var_3['XZ'] = var_3['A'] / var_3['B']
 var_3['XA'] = var_3['A'] * var_3['B']
 
-var_3['F'] = var_3["A"] + var_4 ["A"]
+var_33 = var_3["A"] + var_4 ["A"]
 
 
-print(var_3)
+print(var_33)
