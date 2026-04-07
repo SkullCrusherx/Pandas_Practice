@@ -13,18 +13,15 @@ Dic_2 = {
 }
 
 
-
 var = pd.DataFrame(list)
 var_2 = pd.DataFrame(list_2)
 var_3 = pd.DataFrame(Dic,index= ['A','B','C'])
 var_4 = pd.DataFrame(Dic_2)
+
 
 var_3['XX'] = var_3['A'] + var_3['B']
 var_3['XY'] = var_3['A'] - var_3['B']
 var_3['XZ'] = var_3['A'] / var_3['B']
 var_3['XA'] = var_3['A'] * var_3['B']
 
-var_33 = var_3["A"] + var_4 ["A"]
 
-
-print(var_3["A"])
