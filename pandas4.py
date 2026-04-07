@@ -7,8 +7,9 @@ Dic = {
     "C":[3]
 }
 Dic_2 = {
-    "A":10
+    "A":10,
+    "B":20
 }
 
-var_f = pd.DataFrame(Dic)
+var_f = pd.DataFrame(Dic_2)
 print(var_f)
