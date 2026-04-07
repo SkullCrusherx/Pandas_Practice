@@ -12,7 +12,8 @@ df = pd.DataFrame(var)
 
 
 df.insert(1,"NN",[11,22,33,44])        # value Return into file no need store any variable # insert(Location,Column name,list or element(data)) #equal Data required or error pop
-df["FFF"] = [1,2,3,4]
+df["M"] = [1,2,3,4]
+df["Z"] = df["A"][:2]
 
 df.pop("B")                                             # pop("column name") which column need to remove use pop
 del df["C"]                                             # del df("column name) here df for dataframe which is Contain all file
