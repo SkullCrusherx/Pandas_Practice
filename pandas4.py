@@ -27,4 +27,4 @@ var_3['XA'] = var_3['A'] * var_3['B']
 var_33 = var_3["A"] + var_4 ["A"]
 
 
-print(var_33)
+print(var_4["A"])
