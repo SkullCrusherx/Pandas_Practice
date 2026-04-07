@@ -26,6 +26,6 @@ var_3['XA'] = var_3['A'] * var_3['B']
 
 var_3["<"] = var_3['A'] < var_3['B']
 var_3[">"] = var_3['A'] > var_3['B']
-var_3["<"] = var_3['A'] // 3 ==  var_3['B']
+var_3["<"] = var_3['A']*2 +1 /2 ==  var_3['B']
 
 print(var_3)
