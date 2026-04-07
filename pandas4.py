@@ -10,3 +10,4 @@ var = {
 
 df = pd.DataFrame(var)
 df.insert(1,"NN",[11,22,33,44])
+print(df)
