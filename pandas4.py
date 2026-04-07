@@ -10,7 +10,8 @@ var = {
 
 df = pd.DataFrame(var)
 df.insert(1,"NN",[11,22,33,44])        # value Return into file no need store any variable # insert(Location,Column name,list or element(data))
-df.pop("B")
+df.pop("B")                                             # pop("column name") which columne need to remove use pop
+del var["C"]
 
 
 print(df)                                               # reflect the Data which insert on my Dictionary DataFrame
