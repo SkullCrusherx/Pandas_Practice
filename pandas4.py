@@ -9,5 +9,5 @@ var = {
 }
 
 df = pd.DataFrame(var)
-x = df.insert(1,"NN",[11,22,33,44])
-print(x)
+df.insert(1,"NN",[11,22,33,44]) # value Return into file no need store any there
+print(var)
