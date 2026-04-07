@@ -10,15 +10,6 @@ Dic = {
 Dic_2 = {
     "A":10
 }
-"""
-var = pd.DataFrame(list)
-var_2 = pd.DataFrame(list2)
 
-print(var + var_2)
-print(var - var_2)
-print(var * 2)"""
-
-Alpha = pd.DataFrame(Dic)
-
-print(Alpha)
-
+var = pd.DataFrame(Dic)
+print(var)
