@@ -13,7 +13,6 @@ Dic_2 = {                                                    # Low Value Diction
 }
 
 
-
 var   = pd.DataFrame(Dic)                                    # Make DataFrame Dictionary
 var_2 = pd.DataFrame(Dic_2)                                  # Make DataFrame Dictionary
 var_1 = pd.DataFrame(list)                                   # Make DataFrame list
