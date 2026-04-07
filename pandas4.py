@@ -16,7 +16,7 @@ Dic_2 = {
 
 var = pd.DataFrame(list)
 var_2 = pd.DataFrame(list_2)
-var_3 = pd.DataFrame(Dic)
+var_3 = pd.DataFrame(Dic,index= ['A','B','C'])
 var_4 = pd.DataFrame(Dic_2)
 
 var_3['XX'] = var_3['A'] + var_3['B']
