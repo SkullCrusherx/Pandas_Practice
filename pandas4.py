@@ -25,5 +25,6 @@ var_3['XZ'] = var_3['A'] / var_3['B']
 var_3['XA'] = var_3['A'] * var_3['B']
 
 var_3["<"] = var_3['A'] < var_3['B']
+var_3[">"] = var_3['A'] > var_3['B']
 
 print(var_3)
