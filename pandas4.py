@@ -18,8 +18,4 @@ print(var + var_2)
 print(var - var_2)
 print(var * 2)"""
 
-var = pd.DataFrame(Dic)
-var_2 = pd.DataFrame(Dic_2)
-
-print(var["A"])
 
