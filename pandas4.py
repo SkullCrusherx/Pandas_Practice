@@ -11,4 +11,5 @@ var = {
 df = pd.DataFrame(var)
 df.insert(1,"NN",[11,22,33,44])        # value Return into file no need store any variable
                                                         # insert(Location,Column name,list or element(data))
-print(df)
+
+print(df)                                               # reflect the Data which insert on my Dictionary DataFrame
