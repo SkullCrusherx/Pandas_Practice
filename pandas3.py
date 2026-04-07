@@ -20,7 +20,7 @@ var_1 = pd.DataFrame(list)                                   # Make DataFrame li
 var_3 = pd.DataFrame(list_2)                                 # Make DataFrame List Upon List
 
 
-var['X'] = var['A'] + var['B']                              # here var[x] = new variable to store the arethmetic operation An ** + - / x **
+var['X'] = var['A'] + var['B']                              # here var[x] = new variable to store the arithmetic operation An ** + - / x **
 var['Y'] = var['A'] < 3                                     # Logical Code Return var A value smaller than 3 return boolean value
 
 print(var)                                                  # Reflect after update
