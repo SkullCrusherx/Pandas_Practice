@@ -13,7 +13,7 @@ Dic_2 = {
 }
 var = pd.DataFrame(list)
 print(var)
-var_2 = pd.DataFrame(list_2,index=["A"])
+var_2 = pd.DataFrame(list_2,index=["A",'B','C'])
 print(var_2)
 var_f = pd.DataFrame(Dic)
 print(var_f)
