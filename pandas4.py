@@ -11,9 +11,13 @@ Dic = {
 Dic_2 = {
     "A":[10]
 }
+
+
+
 var = pd.DataFrame(list)
-print(var)
-var_2 = pd.DataFrame(list_2,index=["A",'B','C'])
-print(var_2)
-var_f = pd.DataFrame(Dic)
-print(var_f)
+var_2 = pd.DataFrame(list_2)
+var_3 = pd.DataFrame(Dic)
+var_4 = pd.DataFrame(Dic_2)
+
+var_3['XX'] = var_3['A'] +var_3['B']
+print(var_3)
