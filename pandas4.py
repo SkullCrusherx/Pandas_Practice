@@ -20,6 +20,7 @@ print(var * 2)"""
 
 var = pd.DataFrame(Dic)
 var_2 = pd.DataFrame(Dic_2)
-print(var["A"] + var_2["A"])
-print(var["B"] - var_2["A"])
+
+var["DD"]= var["A"] + var_2["A"]
+print(var)
 
