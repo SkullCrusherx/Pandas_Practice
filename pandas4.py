@@ -13,7 +13,7 @@ df = pd.DataFrame(var)
 
 df.insert(1,"NN",[11,22,33,44])        # value Return into file no need store any variable # insert(Location,Column name,list or element(data)) #equal Data required or error pop
 df["M"] = [1,2,3,4]                                     # Manual Data insert into df and here mandatory all element len same
-df["Z"] = df["A"][:2]                                   #
+df["Z"] = df["A"][:2]                                   # here I need Data from df["A"] element but using slicing not all Data extra data will show Nan
 
 df.pop("B")                                             # pop("column name") which column need to remove use pop
 del df["C"]                                             # del df("column name) here df for dataframe which is Contain all file
