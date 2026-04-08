@@ -13,5 +13,5 @@ df_5 = pd.read_csv("ML.csv",skiprows=[4,5])                             # Read f
 
 df_6 = pd.read_csv("ML.csv",header=None)
 
-print(df["Price"])                                                                    # reflect the column which column required
+#print(df["Price"])                                                                    # reflect the column which column required
 print(df_6)
