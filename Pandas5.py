@@ -8,5 +8,5 @@ df = pd.DataFrame(data)                                             # Make 2D Fr
 
 
 df.to_csv('data.csv')                                               # Create CSV File
-df.to_csv('data.csv',index = False)                       # Index number False not to show inside excel CSV
-df.to_csv('data.csv',header = False)                      #
+df.to_csv('data.csv',index = False)                       # Index number False not to show inside Excel CSV
+df.to_csv('data.csv',header = False)                      # Column number False not to show inside Excel CSV
