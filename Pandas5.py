@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv("ML.csv",header=None)
+df = pd.read_csv("ML.csv",names=["A","B"])
 
 print(df)
