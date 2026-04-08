@@ -6,5 +6,5 @@ df_2 = pd.read_csv("ML.csv", usecols = [0,1])                           # Read i
 df_3 = pd.read_csv("ML.csv", usecols = ["BHK","Price"])                 # Read column or name how much Need using comma [0,1]
 
 
-print(df["BHK"])
+print(df["BHK","Price"]) 
 #print(df_3)
