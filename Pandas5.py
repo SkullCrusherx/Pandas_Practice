@@ -6,8 +6,7 @@ data = {
 }
 df = pd.DataFrame(data)                                             # Make 2D Frame
 
-print(df)
 
-"""df.to_csv('data.csv')
-df.to_csv('data.csv',index = False)"""
-df.to_csv('data.csv',index = False,header = False)
+df.to_csv('data.csv')                                               # Create CSV File
+df.to_csv('data.csv',index = False)                       # Index number False not to show inside excel CSV
+df.to_csv('data.csv',header = False)                      #
