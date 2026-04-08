@@ -1,7 +1,7 @@
 #Read CSV File using python
 import pandas as pd
 
-df = pd.read_csv("ML.csv")                                                            # Read the CSV File
+df = pd.read_csv("ML.csv")                                              # Read the CSV File
 
 df_1 = pd.read_csv("ML.csv", nrows = 2)                                 # Read Number of Rows how much Need From 0 to N
 
@@ -23,5 +23,5 @@ df_12 = pd.read_csv("ML.csv",names=["X","XX","XXX"])                    # No man
 
 df_13 = pd.read_csv("ML.csv",dtype={"BHK":float,"Price":float})         # dtype to change Datatype using need dictionary using like these dtype{column name : data type(float,)}
 
-print(df["Price"])                                                                    # reflect the column which column required
-print(df_13)                                                                          # reflect the column which column required
+print(df["Price"])                                                      # reflect the column which column required
+print(df_13)                                                            # reflect the column which column required
