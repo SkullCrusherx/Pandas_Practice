@@ -18,7 +18,7 @@ df_9 = pd.read_csv("ML.csv",header=[1])                                 # number
 df_10 = pd.read_csv("ML.csv",header=1)                                  # number of index given upon all Data will skip Both
 
 df_11 = pd.read_csv("ML.csv",names=[1,2])                               # Similar like header Given Name where String or INT
-df_12 = pd.read_csv("ML.csv",names=["X","XX","XXX"])                          # mandatory To given
+df_12 = pd.read_csv("ML.csv",names=["X","XX","XXX"])                    # No mandatory To given exact number we can give Extra, but it shows Nan
 
 #print(df["Price"])                                                                    # reflect the column which column required
 print(df_12)
