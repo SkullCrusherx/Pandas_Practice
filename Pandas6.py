@@ -17,7 +17,7 @@ df_8 = pd.read_csv("ML.csv",header=None)                                # Given 
 df_9 = pd.read_csv("ML.csv",header=[1])                                 # number of index given in header it goes header
 df_10 = pd.read_csv("ML.csv",header=1)                                  # number of index given upon all Data will skip Both
 
-df_11 = pd.read_csv("ML.csv",names=2)
+df_11 = pd.read_csv("ML.csv",names=[2])
 
 #print(df["Price"])                                                                    # reflect the column which column required
 print(df_11)
