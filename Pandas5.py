@@ -8,6 +8,6 @@ df = pd.DataFrame(data)                                             # Make 2D Fr
 
 print(df)
 
-df.to_csv('data.csv')
-df.to_csv('data.csv',index = False)
-df.to_csv('data.csv',columns=['FK','NN'])
+"""df.to_csv('data.csv')
+df.to_csv('data.csv',index = False)"""
+df.to_csv('data.csv',index = False,header = False)
