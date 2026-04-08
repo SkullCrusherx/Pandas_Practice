@@ -11,7 +11,8 @@ df_4 = pd.read_csv("ML.csv",skiprows=4)                                 # Read f
 df_4 = pd.read_csv("ML.csv",skiprows=[4])                               # Read from element to skip rows number which is given
 df_5 = pd.read_csv("ML.csv",skiprows=[4,5])                             # Read from element to skip rows number which is given
 
-df_6 = pd.read_csv("ML.csv",header=None)
+df_6 = pd.read_csv("ML.csv",header=None)                                # Given Another header 0 and 1
+df_7 = pd.read_csv("ML.csv",header=1)
 
 #print(df["Price"])                                                                    # reflect the column which column required
-print(df_6)
+print(df_7)
