@@ -7,7 +7,7 @@ data = {
 df = pd.DataFrame(data)                                             # Make 2D Frame
 
 
-"""df.to_csv('data.csv')                                               # Create CSV File
+df.to_csv('data.csv')                                               # Create CSV File
 df.to_csv('data.csv',index = False)                       # Index number False not to show inside Excel CSV
-df.to_csv('data.csv',header = False)                      # Column number False not to show inside Excel CSV"""
-df.to_csv('data.csv',header = [1,2])
+df.to_csv('data.csv',header = False)                      # Column number False not to show inside Excel CSV
+df.to_csv('data.csv',header = [1,2])                      # Header Create new column name given
