@@ -16,7 +16,7 @@ df_7 = pd.read_csv("ML.csv",index_col=[0])                              # make c
 
 df_8 = pd.read_csv("ML.csv",header=None)                                # Given Another header 0 and 1
 df_9 = pd.read_csv("ML.csv",header=[1])                                 # number of index given in header it goes header
-df_10 = pd.read_csv("ML.csv",header=1)                                  # number of index given upon all Data will skip Both
+df_10 = pd.read_csv("ML.csv",header=3)                                  # number of index given upon all Data will skip Both
 
 df_11 = pd.read_csv("ML.csv",names=[1,2])                               # Similar like header Given Name where String or INT
 df_12 = pd.read_csv("ML.csv",names=["X","XX","XXX"])                    # No mandatory To given exact number we can give Extra, but it shows Nan
