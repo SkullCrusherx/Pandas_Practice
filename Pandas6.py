@@ -10,7 +10,7 @@ df_3 = pd.read_csv("ML.csv", usecols = ["BHK","Price"])                 # Read c
 
 df_4 = pd.read_csv("ML.csv",skiprows=4)                                 # Read from 0 to skip rows number = N time skip all
 df_5 = pd.read_csv("ML.csv",skiprows=[4])                               # Read from element to skip rows number which is given
-df_6 = pd.read_csv("ML.csv",skiprows=[4,5])                             # Read from element to skip rows number which is given
+df_6 = pd.read_csv("ML.csv",skiprows=[4,5])                             # Read from element to skip rows number which is given using comma
 
 df_7 = pd.read_csv("ML.csv",index_col=[0])                              # make column as index using this if always it works column length - 1
 
