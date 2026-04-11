@@ -14,6 +14,6 @@ print(csv.dropna(thresh=2))                     # minimum 2 value hold in a row 
 print(csv.fillna("Data"))                       # Blank Data will update or Fill with 'Data'
 print(csv.fillna({'Column name':'Data'}))       # column wise empty data will fill
 '''
-csv.fillna(method = 'ffill')
+csv.fillna(method = 'bfill')
 
 
