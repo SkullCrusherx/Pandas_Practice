@@ -1,5 +1,5 @@
 import pandas as pd
 
-csv = pd.read_csv("new.csv")
+csv = pd.read_csv("data.csv")
 
 print(csv)
