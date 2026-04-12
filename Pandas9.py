@@ -1,4 +1,5 @@
 import pandas as pd
 
 csv = pd.read_csv("new.csv")
-print(csv.dropna())
+
+csv.interpolate(inplace=True)
