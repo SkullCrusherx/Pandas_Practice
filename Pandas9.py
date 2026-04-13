@@ -15,6 +15,7 @@ csv = csv.astype(str)                                                           
 
 #csv.interpolate()                                                                              # if Data is int or float it will work if object then it's not work
 #csv[['Age','No']]=csv[['Age','No']].interpolate()                                              # objective Data Contain all str,Float,int ,but I need specific column to change like this
+#csv.interpolate(limit=n)                                                                       # n = anyvalue int how many data need to chnage
 #csv.interpolate(limit_area='inside',inplace=True)                                              # Data will work all data liner wise change
 
 print(csv)
