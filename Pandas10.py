@@ -15,4 +15,4 @@ print()"""
 
 csv = pd.read_csv('new.csv')
 csv.astype(int)
-csv['Time'] = csv["Time"].interpolate()
+csv['Day'] = csv["Day"].interpolate()
