@@ -14,5 +14,6 @@ print()"""
 
 
 csv = pd.read_csv('new.csv')
-csv['Day'] = csv["Day"].interpolate()
+csv['Time'] = csv['Time'].astype('int64')
+csv['Time'] = csv["Time"].interpolate()
 print(csv)
