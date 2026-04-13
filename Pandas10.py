@@ -13,4 +13,5 @@ print(h)
 print()"""
 
 
-csv = pd.read_csv()
+csv = pd.read_csv('new.csv')
+print(csv)
