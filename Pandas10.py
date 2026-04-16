@@ -9,8 +9,8 @@ h = pd.merge(df1,df2,how = "left")
 i = pd.merge(df1,df2,how = "right")
 
 
-print("GG",g)
+print("G",g)
 print()
-print("HH",h)
+print("H",h)
 print()
-print("II",i)
+print("I",i)
