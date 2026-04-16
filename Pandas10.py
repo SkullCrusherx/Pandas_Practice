@@ -11,7 +11,7 @@ i = pd.merge(df1,df3,how = "right")
 j = pd.merge(df1,df3,how = "inner")
 k = pd.merge(df1,df3,how = "outer")
 l = pd.merge(df1,df3,how = "outer",indicator=True)
-m = pd.merge(df1,df2,left_index=True,right_index=True,suffixes=("F_","L_"))
+m = pd.merge(df1,df2,left_index=True,right_index=True,suffixes=("_1","_2"))
 
 
 print(g)
