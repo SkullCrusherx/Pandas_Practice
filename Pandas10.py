@@ -6,8 +6,8 @@ df3 = pd.DataFrame({"A":[1,2,4],"C":[4,5,6]})
 
 
 g = pd.merge(df1,df3,on = "A" )
-h = pd.merge(df1,df2,how = "left")
-i = pd.merge(df1,df2,how = "right")
+h = pd.merge(df1,df3,how = "left")
+i = pd.merge(df1,df3,how = "right")
 
 
 print(g)
