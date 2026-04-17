@@ -20,6 +20,7 @@ v2 = pd.concat([df1,df3],axis=1)
 v3 = pd.concat([df1,df4],join="inner")
 v4 = pd.concat([df1,df4],join="outer")
 v5 = pd.concat([df1,df2],keys = ["A","B"])
+v6 = pd.concat([df1,df2],keys = ["A","B"],axis=1)
 
 print(v1)
 print()
