@@ -9,8 +9,8 @@ var = pd.DataFrame({
 f = var.groupby("Name")                                                            # Store into Variable and key is name (column name)
 
 for group,data_frame in f:                                                         # for loop use for checking all Data Group name 1st and  2nd is Data
-    print('*'*9,group,'*'*9)
-    print(data_frame)
+    print('*'*9,group,'*'*9)                                                       # For Group Name
+    print(data_frame)                                                              # For Data frame clean sequence
     print()
 
 
