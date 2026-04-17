@@ -1,8 +1,10 @@
+#merge and Concate
 import pandas as pd
 
 df1 = pd.DataFrame({"A":[1,2,3],"B":[4,5,6]})
 df2 = pd.DataFrame({"A":[1,2,4],"B":[4,5,6]})
 df3 = pd.DataFrame({"A":[1,2,4],"C":[4,5,6]})
+df4 = pd.DataFrame({"A":[1,2],"C":[5,6]})
 
 
 g = pd.merge(df1,df3,on = "A" )
@@ -13,17 +15,15 @@ k = pd.merge(df1,df3,how = "outer")
 l = pd.merge(df1,df3,how = "outer",indicator=True)
 m = pd.merge(df1,df2,left_index=True,right_index=True,suffixes=("_1","_2"))
 
+v1 = pd.concat([df1,df3],axis=0)
+v2 = pd.concat([df1,df3],axis=1)
+v3 = pd.concat([df1,df4],join="inner")
+v4 = pd.concat([df1,df4],join="outer")
 
-print(g)
+print(v1)
 print()
-print(h)
+print(v2)
 print()
-print(i)
+print(v3)
 print()
-print(j)
-print()
-print(k)
-print()
-print(l)
-print()
-print(m)
+print(v4)
