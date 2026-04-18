@@ -1,6 +1,6 @@
 import pandas as pd
 
-var = pd.DataFrame({'A':[1,2,3,4,5],"B":[6,7,8,9,10]})
-var_2 = pd.DataFrame({'C':[1,2,3,4],"D":[6,7,8,9]})
+var = pd.DataFrame({'A':[1,2,3,4,5],"B":[6,7,8,9,10]},index=[2,3,4,7,9])
+var_2 = pd.DataFrame({'C':[1,2,3,4],"D":[6,7,8,9]},index=[2,3,4,7])
 
 print(var.join(var_2))
